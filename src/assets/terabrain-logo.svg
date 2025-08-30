@@ -1,0 +1,23 @@
+<svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .logo-bg { fill: #000000; }
+      .logo-text-white { fill: #ffffff; font-family: Arial, sans-serif; font-weight: bold; font-size: 18px; }
+      .logo-text-red { fill: #ef4444; font-family: Arial, sans-serif; font-weight: bold; font-size: 18px; }
+    </style>
+  </defs>
+  
+  <!-- 배경 -->
+  <rect width="200" height="60" class="logo-bg" rx="4" ry="4"/>
+  
+  <!-- TE 텍스트 -->
+  <text x="20" y="37" class="logo-text-white">TE</text>
+  
+  <!-- R 텍스트 (좌우반전) -->
+  <g transform="translate(65, 37) scale(-1, 1)">
+    <text x="0" y="0" class="logo-text-red" text-anchor="start">R</text>
+  </g>
+  
+  <!-- ABRAIN 텍스트 -->
+  <text x="85" y="37" class="logo-text-white">ABRAIN</text>
+</svg>
